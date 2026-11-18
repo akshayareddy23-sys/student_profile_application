@@ -8,9 +8,9 @@ try:
 except (keyError, FileNotFoundError):
   st.error("API key is missing. addit in advanced settings")
   st.stop()
-name=st.text_area("Student Name","Enter Your Name")
-usn=st.text_area("USN / Roll no.","Enter your USN")
-dept=st.text_area("Department","Enter Your Department")
+name=st.text_area("Student Name","akshaya k n")
+usn=st.text_area("USN / Roll no.","1SV24CS007")
+dept=st.text_area("Department","CSE")
 year=st.radio("Current Year",["1st year","2nd Year","3rd Year","4th Year"])
 btn=st.button("View My Profile")
 if btn:
