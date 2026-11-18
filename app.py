@@ -1,8 +1,8 @@
 import streamlit as st
 from groq import Groq
-st.set_page_config(page_title="akshaya",page_icon="🌸", layout="centered")
+st.set_page_config(page_title="Gnanesh N",page_icon="🌸", layout="centered")
 st.title("🎓 Student Profile Application")
-st.caption("Developed by: akshaya k n")
+st.caption("Developed by: akshaya K N")
 try:
   client=Groq(api_key=st.secrets["GROQ_API_KEY"])
 except (keyError, FileNotFoundError):
@@ -18,7 +18,7 @@ if btn:
 
     st.subheader("🎓 Student Profile Details")
 
-    st.write("**Student Name:**", akshaya k n)
-    st.write("**USN / Roll No.:**", 1SV24CS007)
-    st.write("**Department:**", CSE)
-    st.write("**Current Year:**", 3rd)
+    st.write("**Student Name:**", name)
+    st.write("**USN / Roll No.:**", usn)
+    st.write("**Department:**", dept)
+    st.write("**Current Year:**", year)
