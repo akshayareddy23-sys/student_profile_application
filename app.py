@@ -18,7 +18,7 @@ if btn:
 
     st.subheader("🎓 Student Profile Details")
 
-    st.write("**Student Name:**", name)
-    st.write("**USN / Roll No.:**", usn)
-    st.write("**Department:**", dept)
-    st.write("**Current Year:**", year)
+    st.write("**Student Name:**", akshaya k n)
+    st.write("**USN / Roll No.:**", 1SV24CS007)
+    st.write("**Department:**", CSE)
+    st.write("**Current Year:**", 3rd)
